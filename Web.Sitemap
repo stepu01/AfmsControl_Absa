@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" xmlns:app="urn:schemas-codeontime-com:data-aquarium-application">
+  <siteMapNode url="~/Default.aspx" title="^SiteHome^Home^SiteHome^" description="">
+    <siteMapNode title="^HomePath^Home^HomePath^" description="^HomeDesc^Application home page^HomeDesc^" url="~/Pages/Home.aspx" cssClass="Wide" />
+    <siteMapNode title="Extraction Type" description="View Extraction Type" url="~/Pages/ExtractionType.aspx" />
+    <siteMapNode title="Afms Control" description="View Afms Control" url="~/Pages/Afms_Control.aspx" />
+    <siteMapNode title="^MembershipTitle^Membership Manager^MembershipTitle^" description="^MembershipDesc^User and role manager^MembershipDesc^" url="~/Pages/Membership.aspx" roles="Administrators" />
+  </siteMapNode>
+</siteMap>
